@@ -35,7 +35,7 @@ const NavBar = () => {
           ))}
         </ul>
         <button className="lg:hidden" onClick={ToggleMenuBtn}>
-          {menuOpen ? <MdClose size={35} color='white' /> : <GiHamburgerMenu color='white' size={30} />}
+          {menuOpen ? <MdClose size={35} color='black' /> : <GiHamburgerMenu color='black' size={30} />}
         </button>
       </nav>
       <div>
