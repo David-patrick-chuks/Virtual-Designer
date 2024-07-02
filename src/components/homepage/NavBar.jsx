@@ -28,7 +28,7 @@ const NavBar = () => {
   return (
     <>
       <nav className={` sticky top-0 z-20 ${sticky ? "bg-[#ececec] opacity-90 " : ""} bg-white flex lg:py-4 px-4 lg:px-20 py-2 items-center text-black justify-between`}>
-        <p className='font-EpilogueRegular font-bold text-lg lg:text-xl '>Logo</p>
+        <p className='font-EpilogueRegular text-black font-bold text-lg lg:text-xl '>Logo</p>
         <ul className=' hidden lg:flex lg:gap-x-5 lg:font-EpilogueRegular'>
           {NavLinks.map((nav, id) => (
             <li key={id}> {nav.link}</li>
