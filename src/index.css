@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "EpilogueBlack";
+  src: url("./assets/fonts/Epilogue-Black.ttf");
+}
+@font-face {
+  font-family: "EpilogueBold";
+  src: url("./assets/fonts/Epilogue-Bold.ttf");
+}
+@font-face {
+  font-family: "EpilogueRegular";
+  src: url("./assets/fonts/Epilogue-Regular.ttf");
+}
+@font-face {
+  font-family: "EpilogueMedium";
+  src: url("./assets/fonts/Epilogue-Medium.ttf");
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+  .no-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
